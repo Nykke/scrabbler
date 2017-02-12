@@ -23,10 +23,10 @@ def ScrabbleWord
   end
 
   puts total
-  end 
+  end
 
   def multiplier_score(number)
-    multiplier_score = number * score
+    return number * score
   end
 
 end
